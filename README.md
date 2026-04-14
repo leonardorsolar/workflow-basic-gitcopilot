@@ -1,5 +1,8 @@
 # Workflow básico com GitHub Copilot (Agent)
 
+![GitHub Copilot](https://www.fusionsol.com/wp-content/uploads/sites/2/2024/12/github-copilot-free-in-vs-code-1.jpg)
+
+
 Este repositório define um processo simples para transformar uma ideia de produto em documentação de execução de tarefa, usando prompts guiados no Copilot.
 
 ## Objetivo
@@ -33,7 +36,7 @@ Padronizar como o time cria e mantém:
    - O prompt considera o PRD Geral e o PRD da tarefa.
    - Saída esperada: `docs/tarefas/tarefa-00X/TECHSPEC_TAREFA_00X.md`.
 
-4. **Gerar plano de execução**
+4. **Gerar plano de execução da tarefa**
    - Com base no PRD da tarefa + TechSpec.
    - Saída sugerida: `docs/tarefas/tarefa-00X/PLANO_TAREFA_00X.md`.
 
@@ -62,8 +65,8 @@ Resumidamente:
 #techspec_tarefa.md
 ## Crie o plano da tarefa
 crie um plano para a tarefa001 e leia os arquivos #PRD_TAREFA_001.md #TECHSPEC_TAREFA_001.md
-## 5- Implementação
+## Implementação
  Impemente o plano salvando os arquivos na raiz do projeto
-## 6- Adiconar rules ao projeto
-## 7- Adiconar skills
-## 8- Adiconar mcp server
+## Adiconar rules ao projeto
+## Adiconar skills
+## Adiconar mcp server
